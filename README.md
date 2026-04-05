@@ -37,8 +37,8 @@ Algorithms are implemented as separate strategies. The `RateLimiterService` uses
 ### 📂 File Structure
 ```text
 Rate-Limiter-Design/
-├── Main.java (Root)
 └── RateLimiter/
+    ├── Main.java
     ├── config/          # RateLimitConfig.java
     ├── controller/      # Controller.java
     ├── model/           # Request.java, Response.java
